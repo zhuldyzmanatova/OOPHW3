@@ -25,6 +25,10 @@ public class Stream implements Iterable<StudentGroup> {
         return null;
     }
 
+    public int getNumberOfGroups() {
+        return studentGroups.size();
+    }
+
     public void sort(Comparator<StudentGroup> comparator){
         Collections.sort(studentGroups, comparator);
     }

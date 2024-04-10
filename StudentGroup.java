@@ -25,7 +25,6 @@ public class StudentGroup implements Comparable<StudentGroup> {
 
     @Override
     public int compareTo(StudentGroup o) {
-        
         return numberOfStudents - o.getNumberOfStudents();
     }
 
